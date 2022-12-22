@@ -17,7 +17,7 @@ public class Task23 {
         );
 
         List<String> ips = List.of(
-                "192.0.2.235",
+                "192.01.2.235",
                 "0xC0.0x10.0x02.0xEB",
                 "0300.0000.0002.0353",
                 "0xC00002EB",
