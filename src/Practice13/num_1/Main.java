@@ -3,7 +3,7 @@ package Practice13.num_1;
 public class Main {
     public static void main(String[] args) {
         StringMethod("I like Java!!!");
-        StringMethod("Aeeaoeaeaoeo");
+        StringMethod("Aeeaoeaeaльалoeo");
     }
 
     private static void StringMethod(String str) {

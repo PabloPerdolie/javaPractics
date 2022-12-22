@@ -13,6 +13,6 @@ public class tester {
         xDisp = scanner.nextInt();
         yDisp = scanner.nextInt();
         Ball.move(xDisp, yDisp);
-        System.out.println("x = " + x + ",y = " + y);
+        System.out.println("x = " + Ball.getX() + ",y = " + Ball.getY());
     }
 }
