@@ -1,4 +1,4 @@
-package Practics.Practice03.num_6_3;
+package practicsSem1.Practice03.num_6_3;
 
 public class CurrencyConverter {
     double rubles;
@@ -18,9 +18,10 @@ public class CurrencyConverter {
     public double GetGBP() {
         return rubles / 69.48;
     }
-     public double GetJPY() {
+
+    public double GetJPY() {
         return rubles / 0.4236;
-     }
+    }
 
 
 }

@@ -1,6 +1,7 @@
-package Practics.Practice05.num_2;
+package practicsSem1.Practice05.num_2;
 
 import javax.swing.*;
+import java.awt.Shape;
 import java.awt.*;
 
 class RandomShape extends JFrame {
@@ -11,6 +12,10 @@ class RandomShape extends JFrame {
         setLayout(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
+    }
+
+    public static void main(String[] args) {
+        RandomShape app = new RandomShape();
     }
 
     @Override
@@ -47,10 +52,5 @@ class RandomShape extends JFrame {
                     break;
             }
         }
-    }
-
-
-    public static void main(String[] args) {
-        RandomShape app = new RandomShape();
     }
 }

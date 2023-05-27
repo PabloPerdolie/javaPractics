@@ -1,4 +1,4 @@
-package Practics.Practice23.task4;
+package practicsSem1.Practice23.task4;
 
 public class Divide extends BinaryOperation {
     public Divide(Expression left, Expression right) {

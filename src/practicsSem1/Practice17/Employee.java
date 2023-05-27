@@ -1,4 +1,4 @@
-package Practics.Practice17;
+package practicsSem1.Practice17;
 
 public class Employee {
     private String name;

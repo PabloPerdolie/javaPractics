@@ -17,26 +17,32 @@ public class AuthorController {
     private final AuthorService authorService;
 
     @GetMapping()
-    public List<Author> getAuthors(){
+    public List<Author> getAuthors() {
         return authorDAO.findAll();
     }
 
     @PostMapping("/add")
-    public void addBook(@RequestBody Author author){
+    public void addBook(@RequestBody Author author) {
         authorDAO.addAuthor(author);
     }
 
     @DeleteMapping("/delete/{firstName}")
-    public void deleteAuthor(@PathVariable("firstName") String firstName){
+    public void deleteAuthor(@PathVariable("firstName") String firstName) {
         authorDAO.deleteAuthor(firstName);
     }
 
     @GetMapping("/sortByLastName")
-    public List<Author> sortAuthorLastName(){return authorService.sortAuthorByLastName();}
+    public List<Author> sortAuthorLastName() {
+        return authorService.sortAuthorByLastName();
+    }
 
     @GetMapping("/sortByFirstName")
-    public List<Author> sortAuthorFirstName(){return authorService.sortAuthorByFirstName();}
+    public List<Author> sortAuthorFirstName() {
+        return authorService.sortAuthorByFirstName();
+    }
 
     @GetMapping("/sortByMiddleName")
-    public List<Author> sortAuthorMiddleName(){return authorService.sortAuthorByMiddleName();}
+    public List<Author> sortAuthorMiddleName() {
+        return authorService.sortAuthorByMiddleName();
+    }
 }

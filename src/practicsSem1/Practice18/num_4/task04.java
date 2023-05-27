@@ -1,15 +1,15 @@
-package Practics.Practice18.num_4;
+package practicsSem1.Practice18.num_4;
 
 import java.util.Scanner;
 
 public class task04 {
     public static void exceptionDemo() {
-        Scanner myScanner = new Scanner( System.in);
-        System.out.print( "Enter an integer ");
+        Scanner myScanner = new Scanner(System.in);
+        System.out.print("Enter an integer ");
         try {
             String intString = myScanner.next();
             int i = Integer.parseInt(intString);
-            System.out.println( 2/i );
+            System.out.println(2 / i);
         } catch (NumberFormatException e) {
             System.out.println("Enter a NUMBER");
         } finally {

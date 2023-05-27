@@ -18,7 +18,8 @@ public class ProfilingConfiguration {
     @Pointcut(
             "execution(public String com.example.practice16.services.AuthorService.findAll())"
     )
-    public void monitor() { }
+    public void monitor() {
+    }
 
     @Bean
     public PerformanceMonitorInterceptor performanceMonitorInterceptor() {

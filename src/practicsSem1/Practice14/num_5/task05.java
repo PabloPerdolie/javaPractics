@@ -1,4 +1,4 @@
-package Practics.Practice14.num_5;
+package practicsSem1.Practice14.num_5;
 
 
 import java.util.regex.Matcher;

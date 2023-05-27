@@ -1,33 +1,34 @@
-package Practics.Practice04_1.num_7;
+package practicsSem1.Practice04_1.num_7;
 
 public class Pupil {
     private String fullName;
     private int grade;
 
-    public Pupil(){}
-
-    public Pupil(String fullName, int grade)
-    {
-        this.fullName = fullName;
-        this.grade = grade;
+    public Pupil() {
     }
 
-    public void setFullName(String fullName) {
+    public Pupil(String fullName, int grade) {
         this.fullName = fullName;
-    }
-    public void setGrade(int grade) {
         this.grade = grade;
     }
 
     public String getFullName() {
         return fullName;
     }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
     public int getGrade() {
         return grade;
     }
 
-    public String toString()
-    {
+    public void setGrade(int grade) {
+        this.grade = grade;
+    }
+
+    public String toString() {
         return fullName + " " + grade;
     }
 }

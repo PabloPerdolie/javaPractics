@@ -1,4 +1,4 @@
-package Practics.Practice24.task3;
+package practicsSem1.Practice24.task3;
 
 import javax.swing.*;
 import java.awt.*;

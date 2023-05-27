@@ -17,10 +17,11 @@ public class AuthorDAO {
     @PersistenceContext
     private EntityManager em;
 
-    public List<Author> findAll(){
+    public List<Author> findAll() {
         Session session = em.unwrap(Session.class);
         return session.createQuery("SELECT f from Author f", Author.class).getResultList();
     }
+
     public void addAuthor(Author author) {
         Session session = em.unwrap(Session.class);
         session.persist(author);

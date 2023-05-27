@@ -1,4 +1,4 @@
-package Practics.Practice27;
+package practicsSem1.Practice27;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -12,7 +12,7 @@ public class Task2 {
     }
 
     public static Map<String, String> createMap() {
-        String[] names = new String[] {
+        String[] names = new String[]{
                 "Васильев Лев",
                 "Подколзин Максим",
                 "Коршунов Петр",

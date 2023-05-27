@@ -1,4 +1,4 @@
-package Practics.Practice11.num_2;
+package practicsSem1.Practice11.num_2;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

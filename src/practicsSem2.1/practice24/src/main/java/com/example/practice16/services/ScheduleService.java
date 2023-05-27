@@ -15,6 +15,20 @@ public class ScheduleService {
 
     private List<String> resultSetArray = new ArrayList<>();
 
+    public static void printToCsv(List<String> resultArray, String path) throws Exception {
+
+        File csvOutputFile = new File(path);
+        FileWriter fileWriter = new FileWriter(csvOutputFile, false);
+
+
+        for (String mapping : resultArray) {
+            fileWriter.write(mapping + "\n");
+        }
+
+        fileWriter.close();
+
+    }
+
     //@Scheduled(cron = "0 * * * * *")
     @Scheduled(fixedRate = 10000)
     public void scheduleFixedDelayTask() throws Exception {
@@ -60,20 +74,6 @@ public class ScheduleService {
         } catch (SQLException e) {
             System.out.println("Sql exception " + e.getMessage());
         }
-
-    }
-
-    public static void printToCsv(List<String> resultArray, String path) throws Exception {
-
-        File csvOutputFile = new File(path);
-        FileWriter fileWriter = new FileWriter(csvOutputFile, false);
-
-
-        for (String mapping : resultArray) {
-            fileWriter.write(mapping + "\n");
-        }
-
-        fileWriter.close();
 
     }
 

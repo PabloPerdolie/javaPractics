@@ -1,4 +1,4 @@
-package Practics.Practice17;
+package practicsSem1.Practice17;
 
 public class EmployeeController {
     private Employee model;
@@ -9,25 +9,31 @@ public class EmployeeController {
         this.view = view;
     }
 
-    public void setEmployeeName(String name){
-        model.setName(name);
-    }
-    public String getEmployeeName(){
+    public String getEmployeeName() {
         return model.getName();
     }
-    public void setEmployeeRate(int rate){
-        model.setRate(rate);
+
+    public void setEmployeeName(String name) {
+        model.setName(name);
     }
-    public int getEmployeeRate(){
+
+    public int getEmployeeRate() {
         return model.getRate();
     }
-    public void setEmployeeHours(int hours){
-        model.setHours(hours);
+
+    public void setEmployeeRate(int rate) {
+        model.setRate(rate);
     }
-    public int getEmployeeHours(){
+
+    public int getEmployeeHours() {
         return model.getHours();
     }
-    public void updateView(){
+
+    public void setEmployeeHours(int hours) {
+        model.setHours(hours);
+    }
+
+    public void updateView() {
         view.print(model.getName(),
                 model.getRate(), model.getHours());
     }

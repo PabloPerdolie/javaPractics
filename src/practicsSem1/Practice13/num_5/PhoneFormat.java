@@ -1,4 +1,4 @@
-package Practics.Practice13.num_5;
+package practicsSem1.Practice13.num_5;
 
 public class PhoneFormat {
     public static String format(String phone) {

@@ -1,4 +1,4 @@
-package Practics.Practice23.task4;
+package practicsSem1.Practice23.task4;
 
 import java.util.Scanner;
 

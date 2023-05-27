@@ -2,7 +2,7 @@ package PracticsSem2.practice06.Prototype;
 
 public class Main {
     public static void main(String[] args) {
-        Human human = new Human("Egor");
+        Human human = new Human("Pasha");
         Human human1 = human.copy();
         System.out.println(human);
         System.out.println(human1);

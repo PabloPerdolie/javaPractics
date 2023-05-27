@@ -6,11 +6,10 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class MapLock {
-    private List<Map> list;
     private static final Lock lock = new ReentrantLock();
+    private List<Map> list;
 
-    public MapLock()
-    {
+    public MapLock() {
         list = new LinkedList<>();
     }
 
@@ -32,10 +31,9 @@ public class MapLock {
         lock.unlock();
     }
 
-    public void ToString(){
+    public void ToString() {
         String str = "";
-        for (int i = 0; i < list.size(); i++)
-        {
+        for (int i = 0; i < list.size(); i++) {
             str += list.get(i).MapReturn() + " ";
         }
 

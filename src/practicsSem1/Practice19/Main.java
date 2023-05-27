@@ -1,4 +1,4 @@
-package Practics.Practice19;
+package practicsSem1.Practice19;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package Practics.Practice13.num_2;
+package practicsSem1.Practice13.num_2;
 
 public class Person {
     private final String firstName;

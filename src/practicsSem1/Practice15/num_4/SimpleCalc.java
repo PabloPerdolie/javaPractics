@@ -1,10 +1,12 @@
-package Practics.Practice15.num_4;
+package practicsSem1.Practice15.num_4;
 
-import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class SimpleCalc extends JFrame {
+    String display = "0";
     private JButton jbtNum1;
     private JButton jbtNum2;
     private JButton jbtNum3;
@@ -27,16 +29,12 @@ public class SimpleCalc extends JFrame {
     private double START;
     private double SolveTEMP;
     private JTextField jtfResult;
-
     private boolean addBool = false;
     private boolean subBool = false;
     private boolean divBool = false;
     private boolean mulBool = false;
     private boolean operatorClicked = false;
-
     private boolean justSolved = false;
-
-    String display = "0";
 
     public SimpleCalc() {
         JPanel p1 = new JPanel();
@@ -98,6 +96,63 @@ public class SimpleCalc extends JFrame {
         jbtPlusMinus.addActionListener(new ListenToPlusMinus());
 
 
+    }
+
+    public static void main(String[] args) {
+        SimpleCalc calc = new SimpleCalc();
+        calc.pack();
+        calc.setLocationRelativeTo(null);
+        calc.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        calc.setVisible(true);
+    }
+
+    public void solveMethod(double d) {
+        if (addBool == true) {
+            TEMP = TEMP + START;
+        } else if (subBool == true) {
+            TEMP = START - TEMP;
+        } else if (mulBool == true) {
+            TEMP = START * TEMP;
+        } else if (divBool == true) {
+            TEMP = START / TEMP;
+        }
+
+        roundCheck(TEMP);
+        addBool = false;
+        subBool = false;
+        mulBool = false;
+        divBool = false;
+        justSolved = true;
+    }
+
+    public void solveMethodEquals(double d) {
+        if (addBool == true) {
+            SolveTEMP = TEMP + SolveTEMP;
+        } else if (subBool == true) {
+            SolveTEMP = TEMP - SolveTEMP;
+        } else if (mulBool == true) {
+            SolveTEMP = TEMP * SolveTEMP;
+        } else if (divBool == true) {
+            SolveTEMP = TEMP / SolveTEMP;
+        }
+
+        roundCheck(SolveTEMP);
+        addBool = false;
+        subBool = false;
+        mulBool = false;
+        divBool = false;
+        operatorClicked = false;
+        justSolved = true;
+    }
+
+    public void roundCheck(double d) {
+        if (d % 1 == 0) {
+            int result = (int) d;
+            Integer iresult = (Integer) result;
+            jtfResult.setText(Integer.toString(iresult));
+        } else {
+            jtfResult.setText(Double.toString(d));
+        }
     }
 
     class ListenToClear implements ActionListener {
@@ -194,62 +249,5 @@ public class SimpleCalc extends JFrame {
             solveMethodEquals(SolveTEMP);
 
         }
-    }
-
-    public void solveMethod(double d) {
-        if (addBool == true) {
-            TEMP = TEMP + START;
-        } else if (subBool == true) {
-            TEMP = START - TEMP;
-        } else if (mulBool == true) {
-            TEMP = START * TEMP;
-        } else if (divBool == true) {
-            TEMP = START / TEMP;
-        }
-
-        roundCheck(TEMP);
-        addBool = false;
-        subBool = false;
-        mulBool = false;
-        divBool = false;
-        justSolved = true;
-    }
-
-    public void solveMethodEquals(double d) {
-        if (addBool == true) {
-            SolveTEMP = TEMP + SolveTEMP;
-        } else if (subBool == true) {
-            SolveTEMP = TEMP - SolveTEMP;
-        } else if (mulBool == true) {
-            SolveTEMP = TEMP * SolveTEMP;
-        } else if (divBool == true) {
-            SolveTEMP = TEMP / SolveTEMP;
-        }
-
-        roundCheck(SolveTEMP);
-        addBool = false;
-        subBool = false;
-        mulBool = false;
-        divBool = false;
-        operatorClicked = false;
-        justSolved = true;
-    }
-
-    public void roundCheck(double d) {
-        if (d % 1 == 0) {
-            int result = (int) d;
-            Integer iresult = (Integer) result;
-            jtfResult.setText(Integer.toString(iresult));
-        } else {
-            jtfResult.setText(Double.toString(d));
-        }
-    }
-
-    public static void main(String[] args) {
-        SimpleCalc calc = new SimpleCalc();
-        calc.pack();
-        calc.setLocationRelativeTo(null);
-        calc.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        calc.setVisible(true);
     }
 }

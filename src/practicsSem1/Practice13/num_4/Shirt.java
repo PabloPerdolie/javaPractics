@@ -1,4 +1,4 @@
-package Practics.Practice13.num_4;
+package practicsSem1.Practice13.num_4;
 
 public class Shirt {
     private String code;

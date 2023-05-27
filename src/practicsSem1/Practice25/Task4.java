@@ -1,4 +1,4 @@
-package Practics.Practice25;
+package practicsSem1.Practice25;
 
 public class Task4 {
     public static void main(String[] args) {

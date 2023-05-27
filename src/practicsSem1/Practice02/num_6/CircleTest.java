@@ -1,4 +1,4 @@
-package Practics.Practice02.num_6;
+package practicsSem1.Practice02.num_6;
 
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ public class CircleTest {
         y1 = scanner.nextDouble();
         R1 = scanner.nextDouble();
         Circle circle2 = new Circle(x1, y1, R1);
-        if(circle1.getR() > circle2.getR()) System.out.println("First circle is bigger");
+        if (circle1.getR() > circle2.getR()) System.out.println("First circle is bigger");
         else System.out.println("Second circle is bigger");
         System.out.println("Circle №1: S = " + circle1.getSquare() + ", P = " + circle1.getLength());
         System.out.println("Circle №2: S = " + circle2.getSquare() + ", P = " + circle2.getLength());

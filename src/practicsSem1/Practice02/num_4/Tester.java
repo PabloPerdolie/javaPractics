@@ -1,5 +1,7 @@
-package Practics.Practice02.num_4;
+package practicsSem1.Practice02.num_4;
+
 import java.util.Scanner;
+
 public class Tester {
     public static void main(String[] args) {
         int menu;
@@ -9,8 +11,7 @@ public class Tester {
         do {
             menu = scanner.nextInt();
             String name;
-            switch (menu)
-            {
+            switch (menu) {
                 case 1:
                     System.out.println("Enter the name of computer: ");
                     name = scanner.next();

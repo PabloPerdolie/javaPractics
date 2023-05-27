@@ -1,4 +1,4 @@
-package Practics.Practice20.num_3;
+package practicsSem1.Practice20.num_3;
 
 import java.io.Serializable;
 

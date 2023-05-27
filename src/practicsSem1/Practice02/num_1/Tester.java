@@ -1,10 +1,11 @@
-package Practics.Practice02.num_1;
+package practicsSem1.Practice02.num_1;
 
 import java.util.Scanner;
 
 public class Tester {
     public static void main(String[] args) {
-        String name, email; char gender;
+        String name, email;
+        char gender;
         Scanner scanner = new Scanner(System.in);
         name = scanner.next();
         email = scanner.next();

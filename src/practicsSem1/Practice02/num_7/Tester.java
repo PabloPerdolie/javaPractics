@@ -1,4 +1,4 @@
-package Practics.Practice02.num_7;
+package practicsSem1.Practice02.num_7;
 
 import java.util.Scanner;
 
@@ -8,8 +8,7 @@ public class Tester {
         int size;
         size = scanner.nextInt();
         Bookshelf bookshelf = new Bookshelf(size);
-        for(int i = 0; i < size; i++)
-        {
+        for (int i = 0; i < size; i++) {
             String author = scanner.next();
             String name = scanner.next();
             int year = scanner.nextInt();

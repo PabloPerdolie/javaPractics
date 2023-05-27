@@ -1,10 +1,10 @@
 package PracticsSem2.practice06.Factory_Method;
 
-public class AmericanCoffeeShop extends CoffeeShop{
+public class AmericanCoffeeShop extends CoffeeShop {
     @Override
     protected Coffee createCoffee(CoffeeType type) {
         Coffee coffee = null;
-        switch (type){
+        switch (type) {
             case AMERICANO:
                 coffee = new American_Americano();
                 break;

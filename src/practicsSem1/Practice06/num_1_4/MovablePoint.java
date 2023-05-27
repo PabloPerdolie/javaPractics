@@ -1,6 +1,6 @@
-package Practics.Practice06.num_1_4;
+package practicsSem1.Practice06.num_1_4;
 
-public class MovablePoint implements Movable, Nameable, Priceable{
+public class MovablePoint implements Movable, Nameable, Priceable {
     int x;
     int y;
     int xSpeed;
@@ -12,16 +12,20 @@ public class MovablePoint implements Movable, Nameable, Priceable{
         this.xSpeed = xSpeed;
         this.ySpeed = ySpeed;
     }
-    public void moveUp(int y){
+
+    public void moveUp(int y) {
         this.y += y;
     }
-    public void moveDown(int y){
+
+    public void moveDown(int y) {
         this.y -= y;
     }
-    public void moveLeft(int x){
+
+    public void moveLeft(int x) {
         this.x -= x;
     }
-    public void moveRight(int x){
+
+    public void moveRight(int x) {
         this.x += x;
     }
 

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e09efab-118d-4c60-8ce7-17c71374540e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice01/task3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice01/task4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice01/task5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice01/task6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice01/task7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_1/Author.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_1/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_10/HowMany.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_2/ball.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_2/tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_3/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_3/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_3/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_4/Shop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_4/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_5/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_5/DogKennel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_6/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_6/CircleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_7/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_7/Bookshelf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_7/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_8/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_9/Poker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice02/num_9/card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice03/num_1/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice03/num_2/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice03/num_2/radiusComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice03/num_3/tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice03/num_4/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice03/num_5_2/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice03/num_6_3/CurrencyConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice03/num_6_3/EmployeeReport$Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice03/num_6_3/EmployeeReport$Report.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice03/num_6_3/EmployeeReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice03/num_6_3/InternetShop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice03/num_6_3/tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04/num_1/Seasons$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04/num_1/Seasons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04/num_2/Atelier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04/num_3/InternetShop$outerwear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04/num_3/InternetShop$pants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04/num_3/InternetShop$underclothes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04/num_3/InternetShop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04/num_3/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04/num_4/Computer$Brand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04/num_4/Computer$Memory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04/num_4/Computer$Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04/num_4/Computer$Processor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04/num_4/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_1/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_1/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_1/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_1/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_1/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_10/Auto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_10/Plane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_10/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_10/Train.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_10/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_2/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_3/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_3/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_4/Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_4/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_5/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_5/Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_5/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_6/Employer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_6/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_6/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_7/Pupil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_7/SchoolChild.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_7/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_7/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_8/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_8/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_8/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_8/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_8/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_9/Bed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_9/Chair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_9/Furniture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_9/FurnitureShop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice04_1/num_9/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice05/num_1/Button.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice05/num_1/RealVsMilan$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice05/num_1/RealVsMilan$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice05/num_1/RealVsMilan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice05/num_2/RandomShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice05/num_2/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice05/num_3/Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice05/num_4/Animation$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice05/num_4/Animation$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice05/num_4/Animation$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice05/num_4/Animation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_10/Comp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_10/Computer$Brand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_10/Computer$Memory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_10/Computer$Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_10/Computer$Processor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_10/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_10/Shop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_11/Convertable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_11/Converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_1_4/Movable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_1_4/MovableCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_1_4/MovablePoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_1_4/MovableRectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_1_4/Nameable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_1_4/Priceable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_6_9/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_6_9/Magazine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_6_9/Printable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice06/num_6_9/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice07/num_4/MathCalculable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice07/num_4/MathFunc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice07/num_5/ProcessStrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice07/num_5/StringWorkable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice08/num_2/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice08/num_3/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice08/num_5/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice09/num_1/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice09/num_1/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice09/num_2/SortingStudentsByGPA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice09/num_2/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice09/num_3/MergeTwoMassive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice09/num_3/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice09/num_4/Comparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice10/num_1/SortingStudentsByGPA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice10/num_1/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice11/num_1/Task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice11/num_2/Task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice11/num_3/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice11/num_3/StudentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice11/num_4/Task4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice11/num_5/Task5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice13/num_1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice13/num_2/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice13/num_4/Shirt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice13/num_4/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice13/num_5/PhoneFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice13/num_5/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice14/num_1/task01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice14/num_2/task02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice14/num_3/task03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice14/num_4/task04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice14/num_5/task05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice14/num_6/task06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice14/num_7/task07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice15/num_1/task1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice15/num_1/task1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice15/num_1/task1$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice15/num_1/task1$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice15/num_1/task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice15/num_3/MyMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice15/num_4/SimpleCalc$ListenToAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice15/num_4/SimpleCalc$ListenToButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice15/num_4/SimpleCalc$ListenToClear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice15/num_4/SimpleCalc$ListenToDivide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice15/num_4/SimpleCalc$ListenToMultiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice15/num_4/SimpleCalc$ListenToPlusMinus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice15/num_4/SimpleCalc$ListenToSolve.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice15/num_4/SimpleCalc$ListenToSubtract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice15/num_4/SimpleCalc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice16/num_1/Task1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice16/num_1/Task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice16/num_2/Task2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice16/num_2/Task2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice16/num_2/Task2$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice16/num_2/Task2$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice16/num_2/Task2$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice16/num_2/Task2$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice16/num_2/Task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice17/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice17/EmployeeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice17/EmployeeView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice17/MVCPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice18/num_1/task01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice18/num_2/task02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice18/num_3/task03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice18/num_4/task04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice18/num_5/task05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice18/num_6/task06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice18/num_7/task07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice18/num_8/task08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice19/AgeComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice19/EmptyStringException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice19/GpaComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice19/GroupComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice19/LabClassUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice19/LabClassUI$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice19/LabClassUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice19/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice19/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice19/StudentNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice20/num_1_2/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice20/num_3/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice20/num_3/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice20/num_3/Task3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice20/num_4/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice20/num_4/MinMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice21/task2/AnyTypeArr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice21/task2/task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice21/task3/AnyTypeArr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice21/task3/task3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice21/task4/task4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice22/task1/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice22/task2/CalculatorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice22/task2/CalculatorModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice22/task2/CalculatorView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice22/task2/TestCalculatorMVC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task3/Add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task3/BinaryOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task3/Const.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task3/Divide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task3/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task3/Multiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task3/Subtract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task3/Variable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task4/Add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task4/BinaryOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task4/Const.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task4/Divide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task4/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task4/ExpressionParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task4/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task4/Multiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task4/Subtract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task4/UnaryMinus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice23/task4/Variable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice24/task3/CreateTextDocument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice24/task3/ICreateDocument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice24/task3/IDocument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice24/task3/MyFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice24/task3/TextDocument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice25/Task23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice25/Task4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice26/HashTab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice27/Task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Projects/Practics/Practice27/Task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09-1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09-1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09-1/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09-1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09-1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09-1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09-1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09-1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09-1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09-1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09-1/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09-1/src/main/groovy/org/example/Main.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09-1/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09-1/src/main/resources/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09/.idea/practice_9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice09/.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2QNjLz2Y3DPsWkJXSzad5H7wxHQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e09efab-118d-4c60-8ce7-17c71374540e" name="Changes" comment="" />
+      <created>1685200881588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685200881588</updated>
+      <workItem from="1685200884267" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

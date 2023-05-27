@@ -1,6 +1,6 @@
-package Practics.Practice21.task2;
+package practicsSem1.Practice21.task2;
 
-public class AnyTypeArr <E> {
+public class AnyTypeArr<E> {
     private E[] arr;
 
     public void setArr(E[] arr) {

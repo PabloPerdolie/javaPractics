@@ -1,9 +1,7 @@
-package Practics.Practice04_1.num_10;
+package practicsSem1.Practice04_1.num_10;
 
-class Train extends Vehicle
-{
-    public Train(int time, int price)
-    {
+class Train extends Vehicle {
+    public Train(int time, int price) {
         super(time, price);
     }
 
@@ -13,8 +11,7 @@ class Train extends Vehicle
     }
 
     @Override
-    public String tooString()
-    {
+    public String tooString() {
         return "Стоимость перезда: " + price * time;
     }
 }

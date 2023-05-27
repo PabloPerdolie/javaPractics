@@ -17,10 +17,11 @@ public class BookDAO {
     @PersistenceContext
     private EntityManager em;
 
-    public List<Book> findAll(){
+    public List<Book> findAll() {
         Session session = em.unwrap(Session.class);
         return session.createQuery("SELECT f from Book f", Book.class).getResultList();
     }
+
     public void addBook(Book book) {
         Session session = em.unwrap(Session.class);
         session.persist(book);

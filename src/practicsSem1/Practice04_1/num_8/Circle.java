@@ -1,13 +1,16 @@
-package Practics.Practice04_1.num_8;
+package practicsSem1.Practice04_1.num_8;
 
 public class Circle extends Shape {
     protected double radius;
-    Circle(){}
 
-    Circle(double radius) { this.radius = radius;}
+    Circle() {
+    }
 
-    Circle(double radius, String color, boolean filled)
-    {
+    Circle(double radius) {
+        this.radius = radius;
+    }
+
+    Circle(double radius, String color, boolean filled) {
         this.radius = radius;
         this.color = color;
         this.filled = filled;
@@ -22,11 +25,17 @@ public class Circle extends Shape {
     }
 
     @Override
-    double getArea() {return radius * radius * Math.PI;}
+    double getArea() {
+        return radius * radius * Math.PI;
+    }
 
     @Override
-    double getPerimetr() {return 2 * radius * Math.PI;}
+    double getPerimetr() {
+        return 2 * radius * Math.PI;
+    }
 
-    public String toString() {return "Радиус: " + radius + "; Цвет: " + color + ";";}
+    public String toString() {
+        return "Радиус: " + radius + "; Цвет: " + color + ";";
+    }
 }
 

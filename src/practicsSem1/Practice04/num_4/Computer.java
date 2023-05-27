@@ -1,57 +1,14 @@
-package Practics.Practice04.num_4;
+package practicsSem1.Practice04.num_4;
 
 import java.util.Scanner;
 
 public class Computer {
-    private class Processor{
-        double frequency;
-        double energy_use;
-
-        public double getEnergy_use() {
-            return energy_use;
-        }
-
-        public double getFrequency() {
-            return frequency;
-        }
-        Processor(double frequency, double energy_use)
-        {
-            this.frequency = frequency;
-            this.energy_use = energy_use;
-        }
-    }
     Processor processor;
-    private class Memory{
-        int capacity;
-
-        public int getCapacity() {
-            return capacity;
-        }
-
-        Memory(int capacity) {
-            this.capacity = capacity;
-        }
-    }
     Memory memory;
-    private class Monitor{
-        double frequency;
-        int size;
-
-        public int getSize() {
-            return size;
-        }
-
-        public double getFrequency() {
-            return frequency;
-        }
-
-        public Monitor(double frequency, int size) {
-            this.frequency = frequency;
-            this.size = size;
-        }
-    }
     Monitor monitor;
-    Computer(){
+    Brand brand;
+
+    Computer() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Specifications of PROCESSOR: \n Enter the frequency and energy consumption: ");
         double proc_freq = sc.nextDouble();
@@ -72,26 +29,84 @@ public class Computer {
         setBrand(menu);
     }
 
-    public void setBrand(int num)
-    {
-        switch (num)
-        {
-            case 1: brand = Brand.LENOVO; break;
-            case 2: brand = Brand.HP; break;
-            case 3: brand = Brand.ASUS; break;
-            case 4: brand = Brand.XIAOMI; break;
-            case 5: brand = Brand.HONOR; break;
-        }
-    }
-    Brand brand;
-    enum Brand{
-        LENOVO(1), HP(2), ASUS(3), XIAOMI(4), HONOR(5);
-        int num;
-        Brand(int num){this.num = num;}
-    }
-
-
     public static void main(String[] args) {
         Computer computer = new Computer();
+    }
+
+    public void setBrand(int num) {
+        switch (num) {
+            case 1:
+                brand = Brand.LENOVO;
+                break;
+            case 2:
+                brand = Brand.HP;
+                break;
+            case 3:
+                brand = Brand.ASUS;
+                break;
+            case 4:
+                brand = Brand.XIAOMI;
+                break;
+            case 5:
+                brand = Brand.HONOR;
+                break;
+        }
+    }
+
+    enum Brand {
+        LENOVO(1), HP(2), ASUS(3), XIAOMI(4), HONOR(5);
+        int num;
+
+        Brand(int num) {
+            this.num = num;
+        }
+    }
+
+    private class Processor {
+        double frequency;
+        double energy_use;
+
+        Processor(double frequency, double energy_use) {
+            this.frequency = frequency;
+            this.energy_use = energy_use;
+        }
+
+        public double getEnergy_use() {
+            return energy_use;
+        }
+
+        public double getFrequency() {
+            return frequency;
+        }
+    }
+
+    private class Memory {
+        int capacity;
+
+        Memory(int capacity) {
+            this.capacity = capacity;
+        }
+
+        public int getCapacity() {
+            return capacity;
+        }
+    }
+
+    private class Monitor {
+        double frequency;
+        int size;
+
+        public Monitor(double frequency, int size) {
+            this.frequency = frequency;
+            this.size = size;
+        }
+
+        public int getSize() {
+            return size;
+        }
+
+        public double getFrequency() {
+            return frequency;
+        }
     }
 }

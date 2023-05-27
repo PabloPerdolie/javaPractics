@@ -1,8 +1,9 @@
-package Practics.Practice15.num_1;
+package practicsSem1.Practice15.num_1;
 
-import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 class task1 extends JFrame {
     JTextField jta1 = new JTextField(10);

@@ -1,4 +1,4 @@
-package Practics.Practice22.task2;
+package practicsSem1.Practice22.task2;
 
 public class TestCalculatorMVC {
     public static void main(String[] args) {

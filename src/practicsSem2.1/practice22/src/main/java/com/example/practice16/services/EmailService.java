@@ -15,7 +15,7 @@ public class EmailService {
     public JavaMailSender emailSender;
 
     @Async
-    public void sendAddAuthorEmail(Author author){
+    public void sendAddAuthorEmail(Author author) {
         SimpleMailMessage message = new SimpleMailMessage();
 
         message.setFrom("Mimimamumu");
@@ -28,7 +28,7 @@ public class EmailService {
     }
 
     @Async
-    public void sendAddBookEmail(Book book){
+    public void sendAddBookEmail(Book book) {
         SimpleMailMessage message = new SimpleMailMessage();
 
         message.setFrom("Mimimamumu");

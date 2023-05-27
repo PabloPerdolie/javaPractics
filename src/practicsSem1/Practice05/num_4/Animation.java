@@ -1,9 +1,9 @@
-package Practics.Practice05.num_4;
+package practicsSem1.Practice05.num_4;
 
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.*;
 
 class Animation extends JFrame {
     Image[] frames = {
@@ -11,6 +11,7 @@ class Animation extends JFrame {
             Toolkit.getDefaultToolkit().getImage("C:/Users/Пашок/OneDrive/Рабочий стол/2.png"),
             Toolkit.getDefaultToolkit().getImage("C:/Users/Пашок/OneDrive/Рабочий стол/3.png")
     };
+
     Animation() {
         Runnable r = new Runnable() {
             @Override

@@ -17,17 +17,27 @@ public class BookController {
     private final BookService bookService;
 
     @GetMapping()
-    public List<Book> getBooks() { return bookDAO.findAll(); }
+    public List<Book> getBooks() {
+        return bookDAO.findAll();
+    }
 
     @PostMapping("/add")
-    public void addBook(@RequestBody Book book) { this.bookDAO.addBook(book); }
+    public void addBook(@RequestBody Book book) {
+        this.bookDAO.addBook(book);
+    }
 
     @DeleteMapping("/delete/{name}")
-    public void deleteBook(@PathVariable("name") String name) { bookDAO.deleteBook(name); }
+    public void deleteBook(@PathVariable("name") String name) {
+        bookDAO.deleteBook(name);
+    }
 
     @GetMapping("/sortByName")
-    public List<Book> sortBookName() { return bookService.sortBookByName(); }
+    public List<Book> sortBookName() {
+        return bookService.sortBookByName();
+    }
 
     @GetMapping("/sortByCrDate")
-    public List<Book> sortBookByCrDate() { return bookService.sortBookByCrDate(); }
+    public List<Book> sortBookByCrDate() {
+        return bookService.sortBookByCrDate();
+    }
 }

@@ -1,4 +1,4 @@
-package Practics.Practice21.task4;
+package practicsSem1.Practice21.task4;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ public class task4 {
     public static void Filelist(String path) {
         File f = new File(path);
         String[] fArr = null;
-        if (f.exists()||f.isDirectory()) fArr = f.list(null);
+        if (f.exists() || f.isDirectory()) fArr = f.list(null);
         else System.out.println("Not found");
         ArrayList<String> list = new ArrayList(Arrays.asList(fArr));
 

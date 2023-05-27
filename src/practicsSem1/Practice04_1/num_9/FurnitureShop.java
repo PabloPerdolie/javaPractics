@@ -1,4 +1,4 @@
-package Practics.Practice04_1.num_9;
+package practicsSem1.Practice04_1.num_9;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -9,14 +9,16 @@ public class FurnitureShop {
 
         ArrayList<Furniture> furnitures = new ArrayList<>();
         int menu = -1;
-        double area; double height; String material; int price;
-        do{
+        double area;
+        double height;
+        String material;
+        int price;
+        do {
 
 
             System.out.println("Enter what u want to buy: \n1.Bed\n2.Chair\n3.Table");
             menu = sc.nextInt();
-            switch(menu)
-            {
+            switch (menu) {
                 case 1:
                     System.out.println("Enter the area, height, material, price");
                     area = sc.nextDouble();
@@ -39,10 +41,9 @@ public class FurnitureShop {
                     furnitures.add(new Table("bed", height, material, price));
                     break;
             }
-        } while(menu != 0);
+        } while (menu != 0);
         int res = 0;
-        for(int i = 0; i < furnitures.size(); i++)
-        {
+        for (int i = 0; i < furnitures.size(); i++) {
             res += furnitures.get(i).getPrice();
         }
         System.out.println("Total cost: " + res);

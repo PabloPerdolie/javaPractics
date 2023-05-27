@@ -1,4 +1,4 @@
-package Practics.Practice04_1.num_6;
+package practicsSem1.Practice04_1.num_6;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -12,12 +12,10 @@ public class Tester {
         String fullname;
         int income;
         int averageSum;
-        for(int i = 0; i < size; i++)
-        {
+        for (int i = 0; i < size; i++) {
             System.out.println("Введите кого хотите добавить: \n1.Сотрудник\n2.Менеджер");
             int menu = sc.nextInt();
-            switch (menu)
-            {
+            switch (menu) {
                 case 1:
                     System.out.println("Введите имя и заработную плату: ");
                     fullname = sc.next();
@@ -33,8 +31,7 @@ public class Tester {
                     break;
             }
         }
-        for(int i = 0; i < employers.size(); i++)
-        {
+        for (int i = 0; i < employers.size(); i++) {
             System.out.println(employers.get(i).getFullName() + " " + employers.get(i).getIncome());
         }
     }

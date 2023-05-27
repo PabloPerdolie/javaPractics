@@ -1,4 +1,4 @@
-package Practics.Practice11.num_5;
+package practicsSem1.Practice11.num_5;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

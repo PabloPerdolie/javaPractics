@@ -1,4 +1,4 @@
-package Practics.Practice13.num_1;
+package practicsSem1.Practice13.num_1;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class Main {
     }
 
     private static void StringMethod(String str) {
-        System.out.printf("Последний символ строки: %c\n", str.charAt(str.length()-1));
+        System.out.printf("Последний символ строки: %c\n", str.charAt(str.length() - 1));
         System.out.printf("Заканчивается на \"!!!\": %b\n", str.endsWith("!!!"));
         System.out.printf("Начинается на \"I like\": %b\n", str.startsWith("I like"));
         System.out.printf("Содержит подстроку \"Java\": %b\n", str.contains("Java"));

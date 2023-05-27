@@ -1,4 +1,4 @@
-package Practics.Practice04.num_3;
+package practicsSem1.Practice04.num_3;
 
 import java.util.Scanner;
 
@@ -14,23 +14,22 @@ public class Tester {
         do {
             System.out.println("Список каталога товаров: ");
             int i = 1;
-            for(InternetShop shop : InternetShop.values()) {
+            for (InternetShop shop : InternetShop.values()) {
                 System.out.println(i + "." + shop.toString());
                 i++;
             }
             System.out.println("ENTER: ");
             menu = sc.nextInt();
-            switch(menu){
+            switch (menu) {
                 case 1:
                     System.out.println("Список товаров: ");
                     i = 1;
-                    for(InternetShop.outerwear shop : InternetShop.outerwear.values()) {
+                    for (InternetShop.outerwear shop : InternetShop.outerwear.values()) {
                         System.out.println(i + "." + shop.toString());
                         i++;
                     }
                     menu = sc.nextInt();
-                    switch (menu)
-                    {
+                    switch (menu) {
                         case 1:
                             sum += InternetShop.outerwear.JACKETS.price;
                             break;
@@ -45,13 +44,12 @@ public class Tester {
                 case 2:
                     System.out.println("Список товаров: ");
                     i = 1;
-                    for(InternetShop.pants shop : InternetShop.pants.values()) {
+                    for (InternetShop.pants shop : InternetShop.pants.values()) {
                         System.out.println(i + "." + shop.toString());
                         i++;
                     }
                     menu = sc.nextInt();
-                    switch (menu)
-                    {
+                    switch (menu) {
                         case 1:
                             sum += InternetShop.pants.JEANS.price;
                             break;
@@ -67,13 +65,12 @@ public class Tester {
                 case 3:
                     System.out.println("Список товаров: ");
                     i = 1;
-                    for(InternetShop.underclothes shop : InternetShop.underclothes.values()) {
+                    for (InternetShop.underclothes shop : InternetShop.underclothes.values()) {
                         System.out.println(i + "." + shop.toString());
                         i++;
                     }
                     menu = sc.nextInt();
-                    switch (menu)
-                    {
+                    switch (menu) {
                         case 1:
                             sum += InternetShop.underclothes.UNDERPANTS.price;
                             break;

@@ -1,4 +1,4 @@
-package Practics.Practice23.task4;
+package practicsSem1.Practice23.task4;
 
 public class UnaryMinus implements Expression {
     private Expression expression;

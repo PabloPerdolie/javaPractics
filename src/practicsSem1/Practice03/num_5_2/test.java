@@ -1,4 +1,4 @@
-package Practics.Practice03.num_5_2;
+package practicsSem1.Practice03.num_5_2;
 
 import java.util.Scanner;
 

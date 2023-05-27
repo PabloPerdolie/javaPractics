@@ -1,5 +1,7 @@
-package Practics.Practice14.num_3;
-import java.util.regex.*;
+package practicsSem1.Practice14.num_3;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class task03 {
     public static void main(String[] args) {

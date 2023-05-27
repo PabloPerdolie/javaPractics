@@ -1,7 +1,7 @@
-package Practics.Practice17;
+package practicsSem1.Practice17;
 
 public class MVCPatternDemo {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Employee model = retriveEmployeeFromDatabase();
         EmployeeView view = new EmployeeView();
         EmployeeController controller = new EmployeeController(model, view);
@@ -12,7 +12,7 @@ public class MVCPatternDemo {
         controller.updateView();
     }
 
-    private static Employee retriveEmployeeFromDatabase(){
+    private static Employee retriveEmployeeFromDatabase() {
         Employee employee = new Employee();
         employee.setName("Max");
         employee.setRate(100);

@@ -1,4 +1,4 @@
-package Practics.Practice14.num_2;
+package practicsSem1.Practice14.num_2;
 
 
 public class task02 {

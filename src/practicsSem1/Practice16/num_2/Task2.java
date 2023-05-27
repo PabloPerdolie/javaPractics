@@ -1,4 +1,4 @@
-package Practics.Practice16.num_2;
+package practicsSem1.Practice16.num_2;
 
 import javax.swing.*;
 import java.awt.*;
@@ -16,7 +16,8 @@ public class Task2 extends JFrame {
     JMenuItem tnr = new JMenuItem("Times New Roman");
     JMenuItem sans = new JMenuItem("MS Sans Serif");
     JMenuItem courier = new JMenuItem("Courier New");
-    Task2(){
+
+    Task2() {
         super("Второе задание");
         setLayout(new FlowLayout());
         setSize(300, 150);

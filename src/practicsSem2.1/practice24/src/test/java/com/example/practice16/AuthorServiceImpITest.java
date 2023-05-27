@@ -17,11 +17,10 @@ import java.util.List;
 @ExtendWith(MockitoExtension.class)
 
 public class AuthorServiceImpITest {
-    @Mock
-    private AuthorRepository authorRepository;
-
     @Captor
     ArgumentCaptor<Author> captor;
+    @Mock
+    private AuthorRepository authorRepository;
 
     @Test
     void getAuthors() {

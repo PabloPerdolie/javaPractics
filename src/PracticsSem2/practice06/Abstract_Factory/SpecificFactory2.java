@@ -1,6 +1,6 @@
 package PracticsSem2.practice06.Abstract_Factory;
 
-public class SpecificFactory2 implements AbstractFactory{
+public class SpecificFactory2 implements AbstractFactory {
     @Override
     public ProductA createProductA() {
         System.out.println("Создание продукта A завода номер 2");

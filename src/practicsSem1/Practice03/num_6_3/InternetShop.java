@@ -1,10 +1,9 @@
-package Practics.Practice03.num_6_3;
+package practicsSem1.Practice03.num_6_3;
 
 import java.util.Scanner;
 
 public class InternetShop {
-    InternetShop()
-    {
+    InternetShop() {
         Scanner sc = new Scanner(System.in);
         System.out.println("How much money do u have(rubles)?");
         double rubles = sc.nextDouble();
@@ -12,8 +11,7 @@ public class InternetShop {
         System.out.println("What currency do u choose for payment?");
         System.out.println("1.USD\n2.EUR\n3.GBP\n4.JPY");
         int menu = sc.nextInt();
-        switch (menu)
-        {
+        switch (menu) {
             case 1:
                 System.out.println("You have" + amount.GetUSD() + " dollars");
                 break;

@@ -22,9 +22,9 @@ import java.util.Objects;
 @Slf4j
 @Transactional
 public class AuthorService {
+    private final AuthorRepository authorRepository;
     @PersistenceContext
     private EntityManager em;
-    private final AuthorRepository authorRepository;
 
     @LogExecutionTime
     public List<Author> findAll() {
@@ -58,6 +58,7 @@ public class AuthorService {
         authorCriteriaQuery.select(root).orderBy(builder.asc(root.get("firstName")));
         return session.createQuery(authorCriteriaQuery).getResultList();
     }
+
     public List<Author> sortAuthorByLastName() {
         Session session = em.unwrap(Session.class);
 
@@ -68,6 +69,7 @@ public class AuthorService {
         authorCriteriaQuery.select(root).orderBy(builder.asc(root.get("lastName")));
         return session.createQuery(authorCriteriaQuery).getResultList();
     }
+
     public List<Author> sortAuthorByMiddleName() {
         Session session = em.unwrap(Session.class);
 

@@ -1,4 +1,4 @@
-package Practics.Practice25;
+package practicsSem1.Practice25;
 
 import java.util.List;
 import java.util.Map;

@@ -1,14 +1,12 @@
-package Practics.Practice15.num_3;
+package practicsSem1.Practice15.num_3;
 
 import javax.swing.*;
 
-class MyMenu
-{
+class MyMenu {
     JMenu menu, smenu;
     JMenuItem e1, e2, e3, e4, e5, e6;
 
-    MyMenu()
-    {
+    MyMenu() {
         // Create the frame
         JFrame frame = new JFrame("Menu Example");
         // Create the menu bar
@@ -38,12 +36,12 @@ class MyMenu
         menubar.add(menu);
         // Add the menu bar to the frame
         frame.setJMenuBar(menubar);
-        frame.setSize(300,300);
+        frame.setSize(300, 300);
         frame.setLayout(null);
         frame.setVisible(true);
     }
-    public static void main(String args[])
-    {
+
+    public static void main(String args[]) {
         new MyMenu();
     }
 }

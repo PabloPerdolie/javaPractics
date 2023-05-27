@@ -1,9 +1,11 @@
-package Practics.Practice04_1.num_8;
+package practicsSem1.Practice04_1.num_8;
 
 public abstract class Shape {
     protected String color;
     protected boolean filled;
-    Shape(){}
+
+    Shape() {
+    }
 
     public Shape(String color, boolean filled) {
         this.color = color;
@@ -14,12 +16,12 @@ public abstract class Shape {
         return color;
     }
 
-    public boolean isFilled() {
-        return filled;
-    }
-
     public void setColor(String color) {
         this.color = color;
+    }
+
+    public boolean isFilled() {
+        return filled;
     }
 
     public void setFilled(boolean filled) {
@@ -27,8 +29,10 @@ public abstract class Shape {
     }
 
     abstract double getArea();
+
     abstract double getPerimetr();
-    public String toString(){
+
+    public String toString() {
         return "";
     }
 

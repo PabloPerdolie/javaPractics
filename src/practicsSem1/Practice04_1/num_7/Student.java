@@ -1,17 +1,14 @@
-package Practics.Practice04_1.num_7;
+package practicsSem1.Practice04_1.num_7;
 
-class Student extends Pupil
-{
+class Student extends Pupil {
     private String faculty;
 
-    public Student(String fullname, int grade, String faculty)
-    {
+    public Student(String fullname, int grade, String faculty) {
         super(fullname, grade);
         this.faculty = faculty;
     }
 
-    public String toString()
-    {
+    public String toString() {
         return super.toString() + " курс, " + faculty;
     }
 }

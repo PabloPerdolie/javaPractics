@@ -1,7 +1,7 @@
-package Practics.Practice05.num_3;
+package practicsSem1.Practice05.num_3;
 
-import java.awt.*;
 import javax.swing.*;
+import java.awt.*;
 
 class Picture extends JFrame {
     String path = "C:/Users/Пашок/OneDrive/Рабочий стол/самокат.png";
@@ -16,12 +16,12 @@ class Picture extends JFrame {
         setVisible(true);
     }
 
+    public static void main(String[] args) {
+        Picture app = new Picture();
+    }
+
     public void paint(Graphics g) {
         Image img = Toolkit.getDefaultToolkit().getImage(path);
         g.drawImage(img, 0, 0, width, height, this);
-    }
-
-    public static void main(String[] args) {
-        Picture app = new Picture();
     }
 }

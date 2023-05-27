@@ -1,11 +1,12 @@
-package Practics.Practice05.num_1;
+package practicsSem1.Practice05.num_1;
 
 import javax.swing.*;
+import java.awt.Button;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class RealVsMilan extends JFrame{
+public class RealVsMilan extends JFrame {
     private JButton buttonReal = new JButton("Real Madrid");
     private JButton buttonMilan = new JButton("AC Milan");
     private JLabel labelRes = new JLabel("", JLabel.CENTER);
@@ -13,10 +14,10 @@ public class RealVsMilan extends JFrame{
     private JLabel labelWinner = new JLabel("");
     private JPanel panel = new JPanel();
 
-    public RealVsMilan(){
+    public RealVsMilan() {
         Button res = new Button();
         buttonMilan.setBackground(Color.RED);
-        buttonMilan.addActionListener(new ActionListener(){
+        buttonMilan.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 res.ScoreMilan();
@@ -25,7 +26,7 @@ public class RealVsMilan extends JFrame{
                 labelWinner.setText("Winner: " + res.getWinner());
             }
         });
-        buttonReal.addActionListener(new ActionListener(){
+        buttonReal.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 res.ScoreReal();
@@ -44,6 +45,7 @@ public class RealVsMilan extends JFrame{
         panel.add(container);
 
     }
+
     public static void main(String[] args) {
         RealVsMilan frame = new RealVsMilan();
         frame.setContentPane(frame.panel);

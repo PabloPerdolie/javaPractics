@@ -1,13 +1,14 @@
-package Practics.Practice18.num_5;
+package practicsSem1.Practice18.num_5;
 
 public class task05 {
     public static void printMessage(String key) {
         String message = getDetails(key);
-        System.out.println( message );
+        System.out.println(message);
     }
+
     public static String getDetails(String key) {
         if (key == null) {
-            throw new NullPointerException( "null key in getDetails" );
+            throw new NullPointerException("null key in getDetails");
         }
         return "data for " + key;
     }

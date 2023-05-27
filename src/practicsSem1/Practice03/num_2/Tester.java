@@ -1,6 +1,6 @@
-package Practics.Practice03.num_2;
+package practicsSem1.Practice03.num_2;
 
-import Practics.Practice02.num_3.Circle;
+import practicsSem1.Practice02.num_3.Circle;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -15,15 +15,15 @@ public class Tester {
     public static Circle Big() {
         Circle mx = new Circle(0, 0, 0);
         for (int i = 0; i < length; i++)
-            if(mas.get(i).getR() > mx.getR())
+            if (mas.get(i).getR() > mx.getR())
                 mx = mas.get(i);
         return mx;
     }
 
-    public static Circle Small(){
+    public static Circle Small() {
         Circle mn = new Circle(10000, 0, 0);
         for (int i = 0; i < length; i++)
-            if(mn.getR() > mas.get(i).getR())
+            if (mn.getR() > mas.get(i).getR())
                 mn = mas.get(i);
         return mn;
     }

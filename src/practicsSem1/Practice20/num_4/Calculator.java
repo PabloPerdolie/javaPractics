@@ -1,4 +1,4 @@
-package Practics.Practice20.num_4;
+package practicsSem1.Practice20.num_4;
 
 public class Calculator {
     public static <T extends Number, V extends Number> double sum(T a, V b) {

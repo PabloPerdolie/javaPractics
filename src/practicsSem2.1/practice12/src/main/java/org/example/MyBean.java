@@ -17,12 +17,18 @@ public class MyBean {
     Scanner scanner = new Scanner(System.in);
     private String filename;
     private String hashname;
+
     public MyBean() {
         System.out.println("MyBean instance created");
     }
 
+    public static void startWorking() throws Exception {
+
+
+    }
+
     @PostConstruct
-    private void init() throws Exception{
+    private void init() throws Exception {
         filename = scanner.nextLine();
         hashname = scanner.nextLine();
         if (exists(Path.of(filename))) {
@@ -30,7 +36,7 @@ public class MyBean {
             FileReader fileReader = new FileReader(filename);
             FileWriter fileWriter = new FileWriter(hashname);
             Scanner scanner1 = new Scanner(fileReader);
-            while (scanner1.hasNextLine()){
+            while (scanner1.hasNextLine()) {
                 text = scanner1.nextLine();
                 fileWriter.write(fileReader.hashCode());
                 System.out.println(text);
@@ -38,8 +44,7 @@ public class MyBean {
             }
             fileReader.close();
             fileWriter.flush();
-        }
-        else{
+        } else {
             FileWriter fileWriter = new FileWriter(hashname);
             String text = "Null";
             fileWriter.write(text);
@@ -48,16 +53,12 @@ public class MyBean {
     }
 
     @PreDestroy
-    private void shutdown(){
+    private void shutdown() {
         File file = new File(filename);
         file.delete();
     }
 
-    public void close(){
+    public void close() {
         System.out.println("Closing All Resources");
-    }
-    public static void startWorking() throws Exception{
-
-
     }
 }

@@ -6,7 +6,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class ExecutorServiceTest extends ThreadPoolExecutor implements ExecutorService {
-    ExecutorServiceTest(int countOfThreads){
+    ExecutorServiceTest(int countOfThreads) {
         super(countOfThreads, countOfThreads * 2, 10, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>(2));
     }
 }

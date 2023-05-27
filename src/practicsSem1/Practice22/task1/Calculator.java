@@ -1,4 +1,4 @@
-package Practics.Practice22.task1;
+package practicsSem1.Practice22.task1;
 
 import java.util.Scanner;
 import java.util.Stack;
@@ -19,7 +19,7 @@ public class Calculator {
             if (s.equals("+") || s.equals("-") || s.equals("*") || s.equals("/")) {
                 double a = stack.pop();
                 double b = stack.pop();
-                double result = switch(s) {
+                double result = switch (s) {
                     case "-" -> b - a;
                     case "*" -> a * b;
                     case "/" -> b / a;

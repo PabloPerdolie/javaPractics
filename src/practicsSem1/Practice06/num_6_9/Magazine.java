@@ -1,6 +1,6 @@
-package Practics.Practice06.num_6_9;
+package practicsSem1.Practice06.num_6_9;
 
-public class Magazine implements Printable{
+public class Magazine implements Printable {
 
     String name;
     String creator;
@@ -10,14 +10,14 @@ public class Magazine implements Printable{
         this.creator = creator;
     }
 
+    public static void printBooks(Printable[] printables) {
+        for (int i = 0; i < printables.length; i++)
+            if (printables[i] instanceof Magazine)
+                System.out.println("Book: " + ((Magazine) printables[i]).name + ", " + ((Magazine) printables[i]).creator);
+    }
+
     @Override
     public void print() {
         System.out.println("Magazine: " + name + ", " + creator);
-    }
-    public static void printBooks(Printable[] printables)
-    {
-        for(int i = 0; i < printables.length; i++)
-            if(printables[i] instanceof Magazine)
-                System.out.println("Book: " + ((Magazine) printables[i]).name + ", " + ((Magazine) printables[i]).creator);
     }
 }

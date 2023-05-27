@@ -1,4 +1,4 @@
-package Practics.Practice21.task3;
+package practicsSem1.Practice21.task3;
 
 public class AnyTypeArr<E> {
     private E[] arr;

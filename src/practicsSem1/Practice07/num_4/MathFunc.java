@@ -1,9 +1,9 @@
-package Practics.Practice07.num_4;
+package practicsSem1.Practice07.num_4;
 
-public class MathFunc implements MathCalculable{
+public class MathFunc implements MathCalculable {
     @Override
     public double pow(double a, double b) {
-        for(int i = 0; i < b; i++)
+        for (int i = 0; i < b; i++)
             a *= a;
         return a;
     }
@@ -15,6 +15,6 @@ public class MathFunc implements MathCalculable{
 
     @Override
     public double module(double real, double image) {
-        return Math.sqrt(real*real + image*image);
+        return Math.sqrt(real * real + image * image);
     }
 }

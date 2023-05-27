@@ -5,7 +5,7 @@ public class Main {
         Light light = new Light();
         Command turnON = new Command_TurnON(light);
         Command turnOFF = new Command_TurnOFF(light);
-        Invoker invoker = new Invoker(turnON,turnOFF);
+        Invoker invoker = new Invoker(turnON, turnOFF);
         invoker.Turn_on();
         invoker.Turn_off();
     }

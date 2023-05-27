@@ -1,7 +1,5 @@
 package PracticsSem2.practice03;
 
-import java.util.Iterator;
-
 public class Tester {
     public static void main(String[] args) throws InterruptedException {
         Set set = new Set();
@@ -39,13 +37,13 @@ public class Tester {
         myMap.addEntry(new Map(123, "123"));
         myMap.addEntry(new Map(100, "131"));
 
-        Thread one1 = new Thread(()->
+        Thread one1 = new Thread(() ->
         {
             myMap.addEntry(new Map(113, "123"));
             myMap.addEntry(new Map(102, "131"));
             myMap.addEntry(new Map(105, "154"));
         });
-        Thread two2 = new Thread(()->
+        Thread two2 = new Thread(() ->
         {
             myMap.addEntry(new Map(333, "657"));
         });

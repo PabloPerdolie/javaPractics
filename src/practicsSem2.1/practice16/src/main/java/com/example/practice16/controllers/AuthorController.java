@@ -15,17 +15,17 @@ public class AuthorController {
     private final AuthorDAO authorDAO;
 
     @GetMapping()
-    public List<Author> getAuthors(){
+    public List<Author> getAuthors() {
         return authorDAO.findAll();
     }
 
     @PostMapping("/add")
-    public void addBook(@RequestBody Author author){
+    public void addBook(@RequestBody Author author) {
         authorDAO.addAuthor(author);
     }
 
     @DeleteMapping("/delete/{firstName}")
-    public void deleteAuthor(@PathVariable("firstName") String firstName){
+    public void deleteAuthor(@PathVariable("firstName") String firstName) {
         authorDAO.deleteAuthor(firstName);
     }
 }

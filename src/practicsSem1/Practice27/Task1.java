@@ -1,4 +1,4 @@
-package Practics.Practice27;
+package practicsSem1.Practice27;
 
 import java.util.HashSet;
 import java.util.TreeSet;

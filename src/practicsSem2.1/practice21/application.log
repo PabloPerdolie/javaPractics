@@ -1,64 +1,58 @@
-1176 [background-preinit] INFO  o.h.validator.internal.util.Version
+676  [background-preinit] INFO  o.h.validator.internal.util.Version
                 – HV000001: Hibernate Validator 8.0.0.Final
-1270 [main] INFO  c.e.p.Practice16Application
-                – Starting Practice16Application using Java 18.0.2.1 with PID 12312 (C:\Users\Пашок\IdeaProjects\practice21\target\classes started by Пашок in C:\Users\Пашок\IdeaProjects\practice21)
-1273 [main] INFO  c.e.p.Practice16Application
+721  [main] INFO  c.e.p.Practice16Application
+                – Starting Practice16Application using Java 18.0.2.1 with PID 19868 (C:\Users\Пашок\IdeaProjects\practicsSem2\src\practicsSem2.1\practice21\target\classes started by Пашок in C:\Users\Пашок\IdeaProjects\practicsSem2\src\practicsSem2.1\practice21)
+723  [main] INFO  c.e.p.Practice16Application
                 – No active profile set, falling back to 1 default profile: "default"
-2456 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+1396 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
                 – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2552 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
-                – Finished Spring Data repository scanning in 83 ms. Found 2 JPA repository interfaces.
-3049 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+1452 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+1693 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
                 – Bean 'profilingConfiguration' of type [com.example.practice16.config.ProfilingConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-3064 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+1698 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
                 – Bean 'performanceMonitorInterceptor' of type [org.springframework.aop.interceptor.PerformanceMonitorInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-3070 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+1699 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
                 – Bean 'performanceMonitorAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-3835 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+2061 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
                 – Tomcat initialized with port(s): 8080 (http)
-3855 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+2074 [main] INFO  o.a.coyote.http11.Http11NioProtocol
                 – Initializing ProtocolHandler ["http-nio-8080"]
-3856 [main] INFO  o.a.catalina.core.StandardService
+2074 [main] INFO  o.a.catalina.core.StandardService
                 – Starting service [Tomcat]
-3856 [main] INFO  o.a.catalina.core.StandardEngine
+2075 [main] INFO  o.a.catalina.core.StandardEngine
                 – Starting Servlet engine: [Apache Tomcat/10.1.8]
-4104 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+2161 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
                 – Initializing Spring embedded WebApplicationContext
-4105 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
-                – Root WebApplicationContext: initialization completed in 2748 ms
-4415 [main] INFO  o.h.jpa.internal.util.LogHelper
+2162 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1385 ms
+2331 [main] INFO  o.h.jpa.internal.util.LogHelper
                 – HHH000204: Processing PersistenceUnitInfo [name: default]
-4498 [main] INFO  org.hibernate.Version
+2397 [main] INFO  org.hibernate.Version
                 – HHH000412: Hibernate ORM core version 6.1.7.Final
-5047 [main] INFO  com.zaxxer.hikari.HikariDataSource
+2712 [main] INFO  com.zaxxer.hikari.HikariDataSource
                 – HikariPool-1 - Starting...
-5357 [main] INFO  com.zaxxer.hikari.pool.HikariPool
-                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@77cddc0c
-5361 [main] INFO  com.zaxxer.hikari.HikariDataSource
+2890 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a39e554
+2892 [main] INFO  com.zaxxer.hikari.HikariDataSource
                 – HikariPool-1 - Start completed.
-5425 [main] INFO  SQL dialect
+2928 [main] INFO  SQL dialect
                 – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
-7135 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+3838 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
                 – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-7153 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+3847 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
                 – Initialized JPA EntityManagerFactory for persistence unit 'default'
-7919 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+4231 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
                 – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-8606 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+4566 [main] INFO  o.a.coyote.http11.Http11NioProtocol
                 – Starting ProtocolHandler ["http-nio-8080"]
-8659 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+4588 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
                 – Tomcat started on port(s): 8080 (http) with context path ''
-8686 [main] INFO  c.e.p.Practice16Application
-                – Started Practice16Application in 8.067 seconds (process running for 9.545)
-13513 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
-                – Initializing Spring DispatcherServlet 'dispatcherServlet'
-13513 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
-                – Initializing Servlet 'dispatcherServlet'
-13515 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
-                – Completed initialization in 2 ms
-1768836 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+4597 [main] INFO  c.e.p.Practice16Application
+                – Started Practice16Application in 4.223 seconds (process running for 5.096)
+42102 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
                 – Closing JPA EntityManagerFactory for persistence unit 'default'
-1768867 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+42104 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
                 – HikariPool-1 - Shutdown initiated...
-1768899 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+42111 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
                 – HikariPool-1 - Shutdown completed.

@@ -1,8 +1,6 @@
 package com.example.practice16.services;
 
-import com.example.practice16.models.Author;
 import com.example.practice16.models.Book;
-import com.example.practice16.repositories.AuthorRepository;
 import com.example.practice16.repositories.BookRepository;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
@@ -21,9 +19,9 @@ import java.util.Objects;
 @RequiredArgsConstructor
 @Slf4j
 public class BookService {
+    private final BookRepository bookRepository;
     @PersistenceContext
     private EntityManager em;
-    private final BookRepository bookRepository;
 
     public List<Book> findAll() {
         log.info("Find all books");
@@ -56,6 +54,7 @@ public class BookService {
         bookCriteriaQuery.select(root).orderBy(builder.asc(root.get("name")));
         return session.createQuery(bookCriteriaQuery).getResultList();
     }
+
     public List<Book> sortBookByCrDate() {
         Session session = em.unwrap(Session.class);
 

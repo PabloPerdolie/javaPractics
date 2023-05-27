@@ -1,4 +1,4 @@
-package Practics.Practice16.num_1;
+package practicsSem1.Practice16.num_1;
 
 import javax.swing.*;
 import java.awt.event.MouseEvent;
@@ -44,8 +44,7 @@ public class Task1 extends JFrame {
                         JOptionPane.showMessageDialog(null, "Добро пожаловать в ЦАО", "Alert", JOptionPane.INFORMATION_MESSAGE);
                     else
                         JOptionPane.showMessageDialog(null, "Добро пожаловать в ВАО", "Alert", JOptionPane.INFORMATION_MESSAGE);
-                }
-                else
+                } else
                     JOptionPane.showMessageDialog(null, "Добро пожаловать в ЮАО", "Alert", JOptionPane.INFORMATION_MESSAGE);
             }
 

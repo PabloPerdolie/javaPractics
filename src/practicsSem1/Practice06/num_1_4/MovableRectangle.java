@@ -1,10 +1,10 @@
-package Practics.Practice06.num_1_4;
+package practicsSem1.Practice06.num_1_4;
 
 public class MovableRectangle extends MovablePoint implements Movable, Nameable, Priceable {
     MovablePoint topLeft;
     MovablePoint bottomRight;
-    MovableRectangle(int x1, int x2, int y1, int y2, int xSpeed, int ySpeed)
-    {
+
+    MovableRectangle(int x1, int x2, int y1, int y2, int xSpeed, int ySpeed) {
         super(x2 - x1, y1 - y2, xSpeed, ySpeed);
         topLeft = new MovablePoint(x1, y1, xSpeed, ySpeed);
         bottomRight = new MovablePoint(x2, y2, xSpeed, ySpeed);
@@ -22,11 +22,13 @@ public class MovableRectangle extends MovablePoint implements Movable, Nameable,
         topLeft.moveDown(y);
         bottomRight.moveDown(y);
     }
+
     public void moveRight(int y) {
         super.moveRight(y);
         topLeft.moveRight(y);
         bottomRight.moveRight(y);
     }
+
     public void moveLeft(int y) {
         super.moveLeft(y);
         topLeft.moveLeft(y);

@@ -1,10 +1,9 @@
-package Practics.Practice06.num_11;
+package practicsSem1.Practice06.num_11;
 
-public class Converter implements Convertable{
+public class Converter implements Convertable {
     private int temp;
 
-    Converter(int temp)
-    {
+    Converter(int temp) {
         this.temp = temp;
     }
 
@@ -15,6 +14,6 @@ public class Converter implements Convertable{
 
     @Override
     public int convertFarengeith() {
-        return temp*9/5 + 32;
+        return temp * 9 / 5 + 32;
     }
 }

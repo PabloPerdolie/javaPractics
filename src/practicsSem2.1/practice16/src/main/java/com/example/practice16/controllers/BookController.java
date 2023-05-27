@@ -15,17 +15,17 @@ public class BookController {
     private final BookDAO bookDAO;
 
     @GetMapping()
-    public List<Book> getBooks(){
+    public List<Book> getBooks() {
         return bookDAO.findAll();
     }
 
     @PostMapping("/add")
-    public void addBook(@RequestBody Book book){
+    public void addBook(@RequestBody Book book) {
         this.bookDAO.addBook(book);
     }
 
     @DeleteMapping("/delete/{name}")
-    public void deleteBook(@PathVariable("name") String name){
+    public void deleteBook(@PathVariable("name") String name) {
         bookDAO.deleteBook(name);
     }
 

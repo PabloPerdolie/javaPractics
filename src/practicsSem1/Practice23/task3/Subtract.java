@@ -1,6 +1,6 @@
-package Practics.Practice23.task3;
+package practicsSem1.Practice23.task3;
 
-public class Subtract extends BinaryOperation{
+public class Subtract extends BinaryOperation {
     public Subtract(Expression left, Expression right) {
         super(left, right);
     }

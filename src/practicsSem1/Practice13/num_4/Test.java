@@ -1,8 +1,8 @@
-package Practics.Practice13.num_4;
+package practicsSem1.Practice13.num_4;
 
 public class Test {
     public static void main(String[] args) {
-        var shirts = new String[] {
+        var shirts = new String[]{
                 "S001, Black Polo Shirt, Black, XL",
                 "S002, Black Polo Shirt, Black, L",
                 "S003, Blue Polo Shirt, Blue, XL",

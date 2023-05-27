@@ -1,17 +1,14 @@
-package Practics.Practice04_1.num_6;
+package practicsSem1.Practice04_1.num_6;
 
-class Manager extends Employer
-{
+class Manager extends Employer {
     private int averageSum;
 
-    public Manager(String fullName, int income, int averageSum)
-    {
+    public Manager(String fullName, int income, int averageSum) {
         super(fullName, income);
         this.averageSum = averageSum;
     }
 
-    public int getIncome()
-    {
+    public int getIncome() {
         return super.getIncome() + averageSum;
     }
 }

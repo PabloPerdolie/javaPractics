@@ -1,12 +1,11 @@
-package Practics.Practice19;
+package practicsSem1.Practice19;
 
-public class Student implements Comparable<Student>{
-    private String name;
-    private int gpa, group, age;
-
+public class Student implements Comparable<Student> {
     public static final AgeComparator AGE_COMP = new AgeComparator();
     public static final GpaComparator GPA_COMP = new GpaComparator();
     public static final GroupComparator GROUP_COMP = new GroupComparator();
+    private String name;
+    private int gpa, group, age;
 
     public Student(String name, int gpa, int group, int age) {
         this.name = name;
@@ -20,7 +19,7 @@ public class Student implements Comparable<Student>{
     }
 
     public void setFio(String name) {
-        if(name.equals(""))
+        if (name.equals(""))
             throw new EmptyStringException();
         this.name = name;
     }

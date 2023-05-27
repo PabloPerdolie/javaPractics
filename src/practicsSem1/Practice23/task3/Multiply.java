@@ -1,4 +1,4 @@
-package Practics.Practice23.task3;
+package practicsSem1.Practice23.task3;
 
 public class Multiply extends BinaryOperation {
     public Multiply(Expression left, Expression right) {

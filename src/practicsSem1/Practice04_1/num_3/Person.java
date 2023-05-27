@@ -1,26 +1,24 @@
-package Practics.Practice04_1.num_3;
+package practicsSem1.Practice04_1.num_3;
 
 public class Person {
     String fullName;
     int age;
 
-    Person()
-    {
+    Person() {
         fullName = "unnamed";
         age = 0;
     }
+
     Person(String fullName, int age) {
         this.fullName = fullName;
         this.age = age;
     }
 
-    void move()
-    {
+    void move() {
         System.out.println(fullName + " is moving");
     }
 
-    void talk()
-    {
+    void talk() {
         System.out.println(fullName + " is talking");
     }
 

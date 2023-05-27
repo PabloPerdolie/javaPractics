@@ -1,4 +1,5 @@
-package Practics.Practice02.num_2;
+package practicsSem1.Practice02.num_2;
+
 import java.util.Scanner;
 
 public class tester {

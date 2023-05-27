@@ -1,4 +1,4 @@
-package Practics.Practice04_1.num_3;
+package practicsSem1.Practice04_1.num_3;
 
 public class Tester {
     public static void main(String[] args) {

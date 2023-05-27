@@ -1,4 +1,4 @@
-package Practics.Practice10.num_1;
+package practicsSem1.Practice10.num_1;
 
 public class Student {
     String name;
@@ -13,12 +13,12 @@ public class Student {
         return name;
     }
 
-    public int getGPA() {
-        return GPA;
-    }
-
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getGPA() {
+        return GPA;
     }
 
     public void setGPA(int GPA) {

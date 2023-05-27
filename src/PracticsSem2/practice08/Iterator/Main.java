@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Numbers numbers = new Numbers();
         Iterator iterator = numbers.get_Iterator();
-        while(iterator.hasNext()){
-            System.out.print(iterator.next()+" ");
+        while (iterator.hasNext()) {
+            System.out.print(iterator.next() + " ");
         }
     }
 }

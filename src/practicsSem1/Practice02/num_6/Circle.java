@@ -1,29 +1,44 @@
-package Practics.Practice02.num_6;
+package practicsSem1.Practice02.num_6;
 
 public class Circle {
     double x;
     double y;
     double R;
-    Circle(double x, double y, double R)
-    {
-        this.x= x;
+
+    Circle(double x, double y, double R) {
+        this.x = x;
         this.y = y;
         this.R = R;
     }
-    public double getX() {return x;}
-    public double getY() {return y;}
-    public double getR() {return R;}
-    public void setXY(double x, double y)
-    {
+
+    public double getX() {
+        return x;
+    }
+
+    public double getY() {
+        return y;
+    }
+
+    public double getR() {
+        return R;
+    }
+
+    public void setR(double R) {
+        this.R = R;
+    }
+
+    public void setXY(double x, double y) {
         this.x = x;
         this.y = y;
     }
-    public void setR(double R)
-    {
-        this.R = R;
+
+    public double getSquare() {
+        return R * R * Math.PI;
     }
-    public double getSquare() {return R*R*Math.PI;}
-    public double getLength() {return 2*R*Math.PI;}
+
+    public double getLength() {
+        return 2 * R * Math.PI;
+    }
     /*public boolean Comparison(Circle circle)
     {
         if(R > circle.getR())

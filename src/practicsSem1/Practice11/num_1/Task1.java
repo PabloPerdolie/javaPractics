@@ -1,4 +1,4 @@
-package Practics.Practice11.num_1;
+package practicsSem1.Practice11.num_1;
 
 import java.util.Date;
 

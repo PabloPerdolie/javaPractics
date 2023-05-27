@@ -1,9 +1,7 @@
-package Practics.Practice04_1.num_10;
+package practicsSem1.Practice04_1.num_10;
 
-class Plane extends Vehicle
-{
-    public Plane(int time, int price)
-    {
+class Plane extends Vehicle {
+    public Plane(int time, int price) {
         super(time, price);
     }
 
@@ -13,8 +11,7 @@ class Plane extends Vehicle
     }
 
     @Override
-    public String tooString()
-    {
+    public String tooString() {
         return "Стоимость перелета: " + time * price;
     }
 }

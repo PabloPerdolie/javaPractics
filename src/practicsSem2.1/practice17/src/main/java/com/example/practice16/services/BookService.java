@@ -1,6 +1,5 @@
 package com.example.practice16.services;
 
-import com.example.practice16.models.Author;
 import com.example.practice16.models.Book;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
@@ -29,6 +28,7 @@ public class BookService {
         bookCriteriaQuery.select(root).orderBy(builder.asc(root.get("name")));
         return session.createQuery(bookCriteriaQuery).getResultList();
     }
+
     public List<Book> sortBookByCrDate() {
         Session session = em.unwrap(Session.class);
 

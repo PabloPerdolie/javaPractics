@@ -1,4 +1,4 @@
-package Practics.Practice04_1.num_7;
+package practicsSem1.Practice04_1.num_7;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -12,12 +12,10 @@ public class Tester {
         int grade;
         String direction;
         ArrayList<Pupil> pupils = new ArrayList<>(size);
-        for(int i = 0; i < size; i++)
-        {
+        for (int i = 0; i < size; i++) {
             System.out.println("Введите кого хотите добавить: \n1.Школьник\n2.Студент");
             int menu = sc.nextInt();
-            switch (menu)
-            {
+            switch (menu) {
                 case 1:
                     System.out.println("Введите имя, класс и направление: ");
                     fullname = sc.next();

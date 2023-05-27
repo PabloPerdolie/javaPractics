@@ -17,7 +17,9 @@ public class BookController {
     private final EmailService emailService;
 
     @GetMapping()
-    public List<Book> getBooks() { return bookService.findAll(); }
+    public List<Book> getBooks() {
+        return bookService.findAll();
+    }
 
     @PostMapping("/add")
     public void addBook(@RequestBody Book book) {
@@ -26,11 +28,17 @@ public class BookController {
     }
 
     @DeleteMapping("/delete/{name}")
-    public void deleteBook(@PathVariable("name") String name) { bookService.deleteBook(name); }
+    public void deleteBook(@PathVariable("name") String name) {
+        bookService.deleteBook(name);
+    }
 
     @GetMapping("/sortByName")
-    public List<Book> sortBookName() { return bookService.sortBookByName(); }
+    public List<Book> sortBookName() {
+        return bookService.sortBookByName();
+    }
 
     @GetMapping("/sortByCrDate")
-    public List<Book> sortBookByCrDate() { return bookService.sortBookByCrDate(); }
+    public List<Book> sortBookByCrDate() {
+        return bookService.sortBookByCrDate();
+    }
 }

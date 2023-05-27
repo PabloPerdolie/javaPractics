@@ -1,11 +1,11 @@
-package Practics.Practice21.task2;
+package practicsSem1.Practice21.task2;
 
 import java.util.Arrays;
 
 public class task2 {
-    public static <E> void sid (E[] arr) {
+    public static <E> void sid(E[] arr) {
         E[] a = arr;
-        AnyTypeArr <E> sid = new AnyTypeArr<>();
+        AnyTypeArr<E> sid = new AnyTypeArr<>();
         sid.setArr(a);
 
         System.out.println(Arrays.toString(a));
@@ -15,7 +15,7 @@ public class task2 {
         String[] s = {"Hello", "Pavel"};
         sid(s);
 
-        Integer[] i = {1,2,3,4};
+        Integer[] i = {1, 2, 3, 4};
         sid(i);
 
         Double[] d = {1.3, 351.551, 125123.14132};

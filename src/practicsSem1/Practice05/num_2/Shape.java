@@ -1,4 +1,4 @@
-package Practics.Practice05.num_2;
+package practicsSem1.Practice05.num_2;
 
 public class Shape {
     private int color, x, y;

@@ -1,4 +1,4 @@
-package Practics.Practice20.num_1_2;
+package practicsSem1.Practice20.num_1_2;
 
 public class Task<T, V, K> {
     private T t;
@@ -9,6 +9,11 @@ public class Task<T, V, K> {
         this.t = t;
         this.v = v;
         this.k = k;
+    }
+
+    public static void main(String[] args) {
+        Task<Integer, Boolean, String> task = new Task<>(20, true, "Java");
+        task.show();
     }
 
     public T getT() {
@@ -35,14 +40,9 @@ public class Task<T, V, K> {
         this.k = k;
     }
 
-    public void show(){
+    public void show() {
         System.out.println("Объект типа T: " + t.getClass().getName() + "   Значение: " + t);
         System.out.println("Объект типа V: " + v.getClass().getName() + "   Значение: " + v);
         System.out.println("Объект типа K: " + k.getClass().getName() + "   Значение: " + k);
-    }
-
-    public static void main(String[] args){
-        Task<Integer, Boolean, String> task = new Task<>(20, true,"Java");
-        task.show();
     }
 }

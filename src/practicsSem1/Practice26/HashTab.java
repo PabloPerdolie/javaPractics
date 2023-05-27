@@ -1,4 +1,4 @@
-package Practics.Practice26;
+package practicsSem1.Practice26;
 
 import java.util.HashMap;
 
